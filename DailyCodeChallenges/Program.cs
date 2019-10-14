@@ -9,6 +9,8 @@ namespace DailyCodeChallenges
         {
             DailyCodeChallengeFunctions dailyCode = new DailyCodeChallengeFunctions();
             Console.WriteLine(dailyCode.StringPeeler("Today"));
+
+            dailyCode.PrintDiamond(9);
         }
     }
 }
